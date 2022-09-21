@@ -1,0 +1,191 @@
+<!doctype html>
+
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8">
+    <title>Українець Д. Р. ІП-92, лаба №5, 6 варіант</title>
+    <meta name="description" content="Сторінка лабораторної роботи номер 5">
+    <meta name="keywords"
+        content="Українець, ІП-92, лаба 5, лабораторна робота номер 5, html, мова гіпертекстової розмітки сайту HTML-5, основи WEB технологій">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id='order' novalidate>
+        <h3>Форма</h3>
+                <label for="name">ПІБ</label>
+                <input type="text" class="form-control" id="name" placeholder="" pattern="[a-zA-Zа-яА-ЯіІїЇєЄ]+"
+                    value="" required="">
+                <div id="invalid-feedback-name">
+                    ПІБ має складатись з букв кирилиці або латиниці та крапок після ініціалів
+                </div>
+
+
+
+                <label for="datetime">Дата народження</label>
+                <input class="form-control" type="date" id="datetime" required="true">
+                <div id="invalid-feedback-date">
+                    Введіть дату народження (повинно бути 14+ років)
+                </div>
+
+                <label for="address">Адресa</label>
+                <input type="text" class="form-control" id="adress" placeholder="" required="true">
+                <div id="invalid-feedback-address">
+                    Потрібно ввести адресу в форматі м. ХХХХХ
+                </div>
+
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="rand@add.com" required="true"
+                    pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+[.]+[a-z]{2,}">
+                <div id="invalid-feedback-email">
+                    Будь ласка введіть дійсний email
+                </div>
+  
+
+                <label for="telegram">Телеграм</label>
+                <input maxlength="13" id="telegram" type="tel" class="form-control"
+                    placeholder="@xxxxx" required="true">
+                <div id="invalid-feedback-telegram">
+                    Потрібно ввести коректну телеграм адресу
+                </div>
+ 
+
+            </div>
+        <button class="btn" type="submit">Замовити</button>
+    </form>
+    <div id="res">
+        <h3>Дані з форми</h3>
+        <p id="res-name"></p>
+        <p id="res-date"></p>
+        <p id="res-adress"></p>
+        <p id="res-email"></p>
+        <p id="res-telegram"></p>
+    </div>
+    <input type="color" id="palit" value="#ff0000">
+    <table>
+        <tr>
+            <th>
+                1
+            </th>
+            <th>
+                2
+            </th>
+            <th>
+                3
+            </th>
+            <th>
+                4
+            </th>
+            <th>
+                5
+            </th>
+            <th id="six">
+                6
+            </th>
+        </tr>
+        <tr>
+            <th>
+                7
+            </th>
+            <th>
+                8
+            </th>
+            <th>
+                9
+            </th>
+            <th>
+                10
+            </th>
+            <th>
+                11
+            </th>
+            <th>
+                12
+            </th>
+        </tr>
+        <tr>
+            <th>
+                13
+            </th>
+            <th>
+                14
+            </th>
+            <th id="test">
+                15
+            </th>
+            <th>
+                16
+            </th>
+            <th>
+                17
+            </th>
+            <th>
+                18
+            </th>
+        </tr>
+        <tr>
+            <th>
+                19
+            </th>
+            <th>
+                20
+            </th>
+            <th>
+                21
+            </th>
+            <th>
+                22
+            </th>
+            <th>
+                23
+            </th>
+            <th>
+                24
+            </th>
+        </tr>
+        <tr>
+            <th>
+                25
+            </th>
+            <th>
+                26
+            </th>
+            <th>
+                27
+            </th>
+            <th>
+                28
+            </th>
+            <th>
+                29
+            </th>
+            <th>
+                30
+            </th>
+        </tr>
+        <tr>
+            <th>
+                31
+            </th>
+            <th>
+                32
+            </th>
+            <th>
+                33
+            </th>
+            <th>
+                34
+            </th>
+            <th>
+                35
+            </th>
+            <th>
+                36
+            </th>
+        </tr>
+    </table>
+</body>
+<script src="script.js"></script>
+
+</html>

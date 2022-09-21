@@ -1,0 +1,37 @@
+#invalid-feedback-telegram, #invalid-feedback-address, #invalid-feedback-name, #invalid-feedback-date, #invalid-feedback-email{
+    display: none;
+    background-color: red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    float: left;
+    margin-right: 15vw;
+}
+#res{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 40vw;
+    height: 40vw;
+
+}
+
+td, th{
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#palit{
+    display: block;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50vh;
+}
